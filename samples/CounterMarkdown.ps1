@@ -6,7 +6,7 @@ Trace-Message -title "Getting Counter Markdown" -Width 500 -BackgroundColor "#0f
 
 Trace-Message "Starting Get-Mycounter"
 
-$data = Get-MyCounter
+$data = Get-MyCounter-1
 
 if ($data) {
     <#
